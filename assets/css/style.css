@@ -140,6 +140,7 @@ body{
 .three-dots-btn{
     border: none;
     background: transparent;
+    cursor: pointer;
 }
 
 .time{
