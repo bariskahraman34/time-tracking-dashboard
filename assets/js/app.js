@@ -15,10 +15,10 @@ async function fetchData(jsonFilePath){
 }
 
 for (const period of timezone) {
-    period.addEventListener('click',bindPeriodBtn)
+    period.addEventListener('click',periodBtn)
 }
 
-function bindPeriodBtn(){
+function periodBtn(){
     for (const period of timezone) {
         period.classList.remove('active');
     }
